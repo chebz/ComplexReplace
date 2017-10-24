@@ -1,4 +1,4 @@
-# ComplexReplace
+# Complex Find & Replace extension for Visual Studio
 
 ## About
 
