@@ -2,7 +2,7 @@
 
 ## About
 
-The goal is to allow replacing a set of keywords with another set of keywords with a single click of a button. The dialog is also persistent throughout VS instances, making it a lot easier to use for this purpose than default Find & Replace.
+ComplexReplace is a tool to facilitate your refactoring efforts. The goal is to allow replacing a set of strings with another set of strings with a single click of a button within an active file. The dialog contents are also persistent throughout VS instances, making it a lot easier to use for this purpose than default Find & Replace.
 
 ## Example Usage
 
@@ -16,6 +16,8 @@ In the above example:
 3. "Relationship." -> "SceneRelationshipType."
 4. "[Relationship" -> "[SceneRelationship"
 
-The line number of searched string must match the line number of replacement string
+The line number of searched string must match the line number of replacement string.
 
-There are many possible ways to extend and improve it, but I don't have the time to dig through VS shell API. You feel free though.
+Click "Replace" for each file with the same problem, and you're done.
+
+There are many possible ways to extend and improve it, but I don't have the time or patience to dig through VS shell API. You feel free though.
